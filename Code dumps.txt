@@ -1,0 +1,33 @@
+ <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <div class="box">
+      
+      <img src="img/me.JPG" alt="Developer" class="box-img" />
+      <h1>Jerval Thomas</h1>
+      <h5>Web Developer - Content Creator</h5>
+      <p></p>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/jervalthomas/?hl=en"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Aypios"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/JervalThomas"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+    <script>
+      let loaderwrapper = document.querySelector(".loader-wrapper");
+      window.addEventListener("load", function () {
+        loaderwrapper.style.display = "none";
+      });
+    </script>
